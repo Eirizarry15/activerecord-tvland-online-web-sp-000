@@ -24,6 +24,6 @@ describe Network do
 
   it "should have picked up John Mullaney's Pilot" do
     network.call_letters == "NBC"
-    expect(network.sorry).to eq("We're sorry about passing on John Mullaney's Pilot")
+    expect(network.sorry).to eq("We're sorry about passing on John Mullaney's pilot")
   end
 end
